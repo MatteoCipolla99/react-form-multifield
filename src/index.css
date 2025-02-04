@@ -1,0 +1,35 @@
+.container {
+  max-width: 400px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.list {
+  padding: 0;
+}
+
+.list-item {
+  padding: 5px;
+  border-bottom: 1px solid #ddd;
+}
+
+.form {
+  margin-top: 10px;
+}
+
+.input {
+  width: 70%;
+  padding: 5px;
+}
+
+.button {
+  padding: 5px 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
