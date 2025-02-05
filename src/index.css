@@ -1,35 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   max-width: 400px;
   margin: 20px auto;
   font-family: Arial, sans-serif;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
 }
 
 h1 {
   text-align: center;
+  margin-bottom: 20px;
 }
 
-.list {
+ul {
+  list-style: none;
   padding: 0;
 }
 
-.list-item {
-  padding: 5px;
+li {
+  padding: 10px;
   border-bottom: 1px solid #ddd;
 }
 
-.form {
+form {
   margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.input {
-  width: 70%;
-  padding: 5px;
+input,
+select {
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
-.button {
-  padding: 5px 10px;
-  background: #007bff;
+button {
+  padding: 10px;
+  background-color: #007bff;
   color: white;
   border: none;
-  cursor: pointer;
+  border-radius: 5px;
 }
